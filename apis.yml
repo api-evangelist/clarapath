@@ -1,7 +1,14 @@
 aid: clarapath
 name: Clarapath
-description: 'Clarapath is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Clarapath is a medical robotics company headquartered in Hawthorne, New
+  York that automates the tissue sectioning step of the clinical histopathology workflow.
+  Its FDA-registered SectionStar platform pairs patented tape-transfer sectioning with
+  precision robotics, integrated optics and sensors, and computational quality control
+  to turn paraffin blocks into standardized slides with quantitative quality metrics.
+  The company also ships the TrimStar Pro trimming system, a HistoStation data repository
+  for sample and image traceability, remote Telehistology operation, and histology
+  consulting services for hospital, reference, and veterinary laboratories.'
+image: https://api.clarapath.com/uploads/logo_cabbdd513c.png
 url: https://raw.githubusercontent.com/api-evangelist/clarapath/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +19,14 @@ created: '2026-08-09'
 modified: '2026-08-09'
 tags:
 - Company
+- Healthcare
+- Medical Devices
+- Robotics
+- Pathology
+- Histology
+- Laboratory Automation
+- Diagnostics
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +35,41 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://clarapath.com/
+- type: Blog
+  url: https://clarapath.com/news-insights
+- type: Support
+  url: https://clarapath.com/support-resources/contact-us
+- type: TermsOfService
+  url: https://clarapath.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://clarapath.com/privacy-policy
+- type: LLMsTxt
+  url: llms/clarapath-llms.txt
+- type: DomainSecurity
+  url: security/clarapath-domain-security.yml
+x-enrichment:
+  date: '2026-08-09'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: Clarapath ships its software only inside the SectionStar instrument and behind
+    a customer-portal login; clarapath.com publishes an llms.txt and a 14-URL sitemap
+    with no developer or documentation page, and the only API-named host, api.clarapath.com,
+    is the Strapi CMS that backs the marketing site — its /documentation, /api and
+    /graphql endpoints all return Strapi 404 JSON.
+  evidence:
+  - url: https://clarapath.com/llms.txt
+    status: 200
+  - url: https://clarapath.com/sitemap.xml
+    status: 200
+  - url: https://api.clarapath.com/documentation
+    status: 404
+  - url: https://api.clarapath.com/graphql
+    status: 404
+  - url: https://clarapath.com/.well-known/agent-card.json
+    status: 404
+  checked: '2026-08-09'

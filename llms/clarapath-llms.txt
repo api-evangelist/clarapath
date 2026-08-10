@@ -1,0 +1,24 @@
+# ClaraPath
+
+> ClaraPath is a precision pathology solutions company providing advanced tissue processing tools and services to hospitals, veterinary labs, and healthcare professionals.
+
+ClaraPath develops and delivers innovative pathology instruments and consumables — including the SectionStar and TrimStar product lines — alongside expert consulting services.
+
+Their mission is to improve diagnostic accuracy and streamline lab workflows for pathologists worldwide.
+
+## Main Pages
+
+- [Home](https://clarapath.com/)
+- [About ClaraPath](https://clarapath.com/about)
+- [Leadership Team](https://clarapath.com/about/leadership)
+- [Board & Advisors](https://clarapath.com/about/board-advisors)
+- [SectionStar](https://clarapath.com/products-services/sectionstar)
+- [TrimStar](https://clarapath.com/products-services/trimstar)
+- [Consulting](https://clarapath.com/products-services/consulting)
+- [Hospitals](https://clarapath.com/healthcare-professionals/hospitals)
+- [Veterinaries](https://clarapath.com/healthcare-professionals/veterinaries)
+- [News & Insights](https://clarapath.com/news-insights)
+- [Careers](https://clarapath.com/careers)
+- [Contact Us](https://clarapath.com/support-resources/contact-us)
+- [Privacy Policy](https://clarapath.com/privacy-policy)
+- [Terms of Use](https://clarapath.com/terms-of-use)
