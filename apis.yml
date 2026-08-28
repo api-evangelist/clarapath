@@ -8,6 +8,17 @@ description: 'Clarapath is a medical robotics company headquartered in Hawthorne
   The company also ships the TrimStar Pro trimming system, a HistoStation data repository
   for sample and image traceability, remote Telehistology operation, and histology
   consulting services for hospital, reference, and veterinary laboratories.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://api.clarapath.com/uploads/logo_cabbdd513c.png
 url: https://raw.githubusercontent.com/api-evangelist/clarapath/refs/heads/main/apis.yml
 x-type: company
